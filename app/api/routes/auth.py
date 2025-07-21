@@ -62,3 +62,5 @@ def read_current_user(current_user: str = Depends(get_current_user)):
 # def dashboard(current_user: str = Depends(get_current_user)):
 #     return {"message": f"Bienvenido {current_user}"}
 # -------------------------------------------------------------------
+
+
